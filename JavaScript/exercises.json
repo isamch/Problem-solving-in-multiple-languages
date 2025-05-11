@@ -1,11 +1,5 @@
 [
   {
-    "title": "Chunk Array",
-    "description": "Split array into chunks of specified size.",
-    "function": "function chunkArray(arr, size) {\n  let result = [];\n  for (let i = 0; i < arr.length; i += size) {\n    result.push(arr.slice(i, i + size));\n  }\n  return result;\n}",
-    "test": "console.log(chunkArray([1, 2, 3, 4, 5], 2)); // Output: [[1,2],[3,4],[5]]"
-  },
-  {
     "title": "Reverse String",
     "description": "Return the reversed version of a given string.",
     "function": "function reverseString(str) {\n  return str.split('').reverse().join('');\n}",
