@@ -1,11 +1,5 @@
 [
   {
-    "title": "Deep Clone Object",
-    "description": "Deeply clone a JavaScript object.",
-    "function": "function deepClone(obj) {\n  return JSON.parse(JSON.stringify(obj));\n}",
-    "test": "console.log(deepClone({ a: 1, b: { c: 2 } }));"
-  },
-  {
     "title": "Jump Game",
     "description": "Check if you can reach the last index from the first index in the array.",
     "function": "function canJump(nums) {\n  let max = 0;\n  for (let i = 0; i < nums.length; i++) {\n    if (i > max) return false;\n    max = Math.max(max, i + nums[i]);\n  }\n  return true;\n}",
