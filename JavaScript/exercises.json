@@ -1,11 +1,5 @@
 [
   {
-    "title": "Template Engine",
-    "description": "Render a simple template with placeholders.",
-    "function": "function render(template, data) {\n  return template.replace(/{{(\\w+)}}/g, (_, key) => data[key] || '');\n}",
-    "test": "console.log(render('Hello {{name}}', { name: 'World' })); // Output: Hello World"
-  },
-  {
     "title": "AES Encryption",
     "description": "Encrypt text using AES (with CryptoJS).",
     "function": "function encrypt(text, key) {\n  return CryptoJS.AES.encrypt(text, key).toString();\n}",
