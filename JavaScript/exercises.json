@@ -1,11 +1,5 @@
 [
   {
-    "title": "Object to Array",
-    "description": "Convert an object into an array of key-value pairs.",
-    "function": "function objectToArray(obj) {\n  return Object.entries(obj);\n}",
-    "test": "console.log(objectToArray({a: 1, b: 2})); // Output: [['a', 1], ['b', 2]]"
-  },
-  {
     "title": "Count Occurrences",
     "description": "Count how many times a value appears in an array.",
     "function": "function countOccurrences(arr, value) {\n  return arr.filter(x => x === value).length;\n}",
