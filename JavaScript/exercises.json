@@ -1,11 +1,5 @@
 [
   {
-    "title": "Count Vowels",
-    "description": "Count the number of vowels in a string.",
-    "function": "function countVowels(str) {\n  return (str.match(/[aeiou]/gi) || []).length;\n}",
-    "test": "console.log(countVowels('hello')); // Output: 2"
-  },
-  {
     "title": "Remove Duplicates",
     "description": "Remove duplicate values from an array.",
     "function": "function removeDuplicates(arr) {\n  return [...new Set(arr)];\n}",
