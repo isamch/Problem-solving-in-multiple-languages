@@ -1,11 +1,5 @@
 [
   {
-    "title": "Chart Generator",
-    "description": "Render chart using a library like Chart.js.",
-    "function": "function generateChart(ctx, data) {\n  new Chart(ctx, { type: 'bar', data });\n}",
-    "test": "// generateChart(canvasContext, chartData);"
-  },
-  {
     "title": "Validation Library",
     "description": "Validate email format.",
     "function": "function isValidEmail(email) {\n  return /^[\\w.-]+@[\\w.-]+\\.\\w+$/.test(email);\n}",
