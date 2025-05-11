@@ -1,11 +1,5 @@
 [
   {
-    "title": "Promise Library",
-    "description": "Create a minimal Promise wrapper.",
-    "function": "function delay(ms) {\n  return new Promise(resolve => setTimeout(resolve, ms));\n}",
-    "test": "delay(1000).then(() => console.log('Done'));"
-  },
-  {
     "title": "QR Code Generator",
     "description": "Generate QR code using an external library.",
     "function": "function generateQR(text) {\n  // Use qrcode library\n  QRCode.toCanvas(document.getElementById('canvas'), text);\n}",
