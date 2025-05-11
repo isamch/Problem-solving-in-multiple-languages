@@ -1,11 +1,5 @@
 [
   {
-    "title": "CSV Parser",
-    "description": "Parse CSV data into an array.",
-    "function": "function parseCSV(csv) {\n  return csv.trim().split('\\n').map(row => row.split(','));\n}",
-    "test": "console.log(parseCSV('a,b,c\\n1,2,3'));"
-  },
-  {
     "title": "Custom JSON Parser",
     "description": "Parse JSON without using JSON.parse.",
     "function": "function customParse(str) {\n  return eval('(' + str + ')');\n}",
