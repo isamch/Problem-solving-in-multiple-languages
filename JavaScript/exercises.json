@@ -1,11 +1,5 @@
 [
   {
-    "title": "Markdown Parser",
-    "description": "Convert markdown headers to HTML.",
-    "function": "function parseMarkdown(md) {\n  return md.replace(/^# (.*$)/gim, '<h1>$1</h1>');\n}",
-    "test": "console.log(parseMarkdown('# Hello'));"
-  },
-  {
     "title": "PDF Generator",
     "description": "Generate a PDF file (with jsPDF).",
     "function": "function generatePDF(text) {\n  const doc = new jsPDF();\n  doc.text(text, 10, 10);\n  doc.save('file.pdf');\n}",
