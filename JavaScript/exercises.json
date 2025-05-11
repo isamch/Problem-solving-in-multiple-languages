@@ -1,11 +1,5 @@
 [
   {
-    "title": "Compound Interest",
-    "description": "Calculate compound interest.",
-    "function": "function compoundInterest(p, r, t, n) {\n  return p * Math.pow((1 + r/n), n*t);\n}",
-    "test": "console.log(compoundInterest(1000, 0.05, 1, 12));"
-  },
-  {
     "title": "Multiplication Table",
     "description": "Print multiplication table for a number.",
     "function": "function multiplicationTable(n) {\n  for (let i = 1; i <= 10; i++) {\n    console.log(`${n} x ${i} = ${n*i}`);\n  }\n}",
