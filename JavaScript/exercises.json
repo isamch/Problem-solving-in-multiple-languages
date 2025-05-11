@@ -1,11 +1,5 @@
 [
   {
-    "title": "Factorial",
-    "description": "Return the factorial of a number.",
-    "function": "function factorial(n) {\n  if (n === 0 || n === 1) return 1;\n  return n * factorial(n - 1);\n}",
-    "test": "console.log(factorial(5)); // Output: 120"
-  },
-  {
     "title": "Find Max Number",
     "description": "Return the largest number in an array.",
     "function": "function findMax(arr) {\n  return Math.max(...arr);\n}",
