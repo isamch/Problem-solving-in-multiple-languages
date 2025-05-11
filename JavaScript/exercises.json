@@ -1,11 +1,5 @@
 [
   {
-    "title": "Repeat String",
-    "description": "Repeat a string a given number of times.",
-    "function": "function repeatString(str, times) {\n  return str.repeat(times);\n}",
-    "test": "console.log(repeatString('abc', 3)); // Output: 'abcabcabc'"
-  },
-  {
     "title": "Find Intersection",
     "description": "Find common elements between two arrays.",
     "function": "function intersection(arr1, arr2) {\n  return arr1.filter(x => arr2.includes(x));\n}",
