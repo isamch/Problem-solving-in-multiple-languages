@@ -1,11 +1,5 @@
 [
   {
-    "title": "Check Anagram",
-    "description": "Check if two strings are anagrams.",
-    "function": "function isAnagram(str1, str2) {\n  const format = s => s.toLowerCase().replace(/[^a-z0-9]/g, '').split('').sort().join('');\n  return format(str1) === format(str2);\n}",
-    "test": "console.log(isAnagram('listen', 'silent')); // Output: true"
-  },
-  {
     "title": "Chunk Array",
     "description": "Split array into chunks of specified size.",
     "function": "function chunkArray(arr, size) {\n  let result = [];\n  for (let i = 0; i < arr.length; i += size) {\n    result.push(arr.slice(i, i + size));\n  }\n  return result;\n}",
