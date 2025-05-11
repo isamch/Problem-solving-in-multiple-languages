@@ -1,11 +1,5 @@
 [
   {
-    "title": "Compress String",
-    "description": "Compress repeated characters (basic).",
-    "function": "function compress(str) {\n  return str.replace(/(.)\\1+/g, (m, c) => c + m.length);\n}",
-    "test": "console.log(compress('aaabbbcc')); // Output: 'a3b3c2'"
-  },
-  {
     "title": "Calculate Area",
     "description": "Calculate area of a rectangle.",
     "function": "function area(w, h) {\n  return w * h;\n}",
