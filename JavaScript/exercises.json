@@ -1,11 +1,5 @@
 [
   {
-    "title": "Caesar Cipher",
-    "description": "Encrypt a string using Caesar cipher.",
-    "function": "function caesarCipher(str, shift) {\n  return str.replace(/[a-z]/gi, c =>\n    String.fromCharCode((c.toLowerCase().charCodeAt(0) - 97 + shift) % 26 + 97));\n}",
-    "test": "console.log(caesarCipher('abc', 3)); // Output: def"
-  },
-  {
     "title": "CSV Parser",
     "description": "Parse CSV data into an array.",
     "function": "function parseCSV(csv) {\n  return csv.trim().split('\\n').map(row => row.split(','));\n}",
