@@ -1,11 +1,5 @@
 [
   {
-    "title": "Digital Signature",
-    "description": "Create a basic digital signature with hashing.",
-    "function": "function sign(data, secret) {\n  return CryptoJS.HmacSHA256(data, secret).toString();\n}",
-    "test": "// Requires CryptoJS\n// console.log(sign('data', 'secret'));"
-  },
-  {
     "title": "Markdown Parser",
     "description": "Convert markdown headers to HTML.",
     "function": "function parseMarkdown(md) {\n  return md.replace(/^# (.*$)/gim, '<h1>$1</h1>');\n}",
