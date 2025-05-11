@@ -1,11 +1,5 @@
 [
   {
-    "title": "Custom JSON Parser",
-    "description": "Parse JSON without using JSON.parse.",
-    "function": "function customParse(str) {\n  return eval('(' + str + ')');\n}",
-    "test": "console.log(customParse('{\"a\":1}'));"
-  },
-  {
     "title": "Promise Library",
     "description": "Create a minimal Promise wrapper.",
     "function": "function delay(ms) {\n  return new Promise(resolve => setTimeout(resolve, ms));\n}",
