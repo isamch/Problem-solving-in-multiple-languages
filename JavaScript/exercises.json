@@ -1,11 +1,5 @@
 [
   {
-    "title": "Text Search Engine",
-    "description": "Search word in a text document.",
-    "function": "function search(text, word) {\n  return text.includes(word);\n}",
-    "test": "console.log(search('hello world', 'world')); // Output: true"
-  },
-  {
     "title": "Unit Testing System",
     "description": "Simple assertion-based testing.",
     "function": "function test(name, fn) {\n  try { fn(); console.log(name + ' passed'); }\n  catch (e) { console.error(name + ' failed', e); }\n}",
