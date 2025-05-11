@@ -1,11 +1,5 @@
 [
   {
-    "title": "Remove Duplicates",
-    "description": "Remove duplicate values from an array.",
-    "function": "function removeDuplicates(arr) {\n  return [...new Set(arr)];\n}",
-    "test": "console.log(removeDuplicates([1, 2, 2, 3])); // Output: [1, 2, 3]"
-  },
-  {
     "title": "Get Day of Week",
     "description": "Return the day of the week from a date string.",
     "function": "function getDayName(dateStr) {\n  const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];\n  return days[new Date(dateStr).getDay()];\n}",
