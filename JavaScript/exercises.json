@@ -1,29 +1,5 @@
 [
   {
-    "title": "Sum Even Numbers",
-    "description": "Return the sum of all even numbers in an array.",
-    "function": "function sumEven(arr) {\n  return arr.filter(n => n % 2 === 0).reduce((a, b) => a + b, 0);\n}",
-    "test": "console.log(sumEven([1, 2, 3, 4, 5])); // Output: 6"
-  },
-  {
-    "title": "Swap Case",
-    "description": "Swap the case of each character in a string.",
-    "function": "function swapCase(str) {\n  return str.split('').map(c => c === c.toUpperCase() ? c.toLowerCase() : c.toUpperCase()).join('');\n}",
-    "test": "console.log(swapCase('Hello')); // Output: 'hELLO'"
-  },
-  {
-    "title": "Calculate Average",
-    "description": "Calculate the average of an array of numbers.",
-    "function": "function average(arr) {\n  return arr.reduce((a, b) => a + b, 0) / arr.length;\n}",
-    "test": "console.log(average([10, 20, 30])); // Output: 20"
-  },
-  {
-    "title": "Find Element",
-    "description": "Find an element in an array.",
-    "function": "function findElement(arr, el) {\n  return arr.includes(el);\n}",
-    "test": "console.log(findElement([1, 2, 3], 2)); // Output: true"
-  },
-  {
     "title": "Merge Arrays",
     "description": "Merge two arrays and remove duplicates.",
     "function": "function mergeArrays(a, b) {\n  return [...new Set([...a, ...b])];\n}",
