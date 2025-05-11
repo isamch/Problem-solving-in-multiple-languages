@@ -1,11 +1,5 @@
 [
   {
-    "title": "Auto Documentation",
-    "description": "Generate docs from function comments.",
-    "function": "function generateDocs(fn) {\n  return fn.toString().match(/\\/\\*\\*(.*?)\\*\\//s)?.[1].trim();\n}",
-    "test": "/** Adds numbers */\nfunction add(a, b) { return a + b; }\nconsole.log(generateDocs(add));"
-  },
-  {
     "title": "Text Search Engine",
     "description": "Search word in a text document.",
     "function": "function search(text, word) {\n  return text.includes(word);\n}",
