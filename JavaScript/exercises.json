@@ -1,11 +1,5 @@
 [
   {
-    "title": "Quick Sort",
-    "description": "Sort an array using quicksort.",
-    "function": "function quickSort(arr) {\n  if (arr.length <= 1) return arr;\n  const pivot = arr[0];\n  const left = arr.slice(1).filter(x => x < pivot);\n  const right = arr.slice(1).filter(x => x >= pivot);\n  return [...quickSort(left), pivot, ...quickSort(right)];\n}",
-    "test": "console.log(quickSort([3,6,1,5]));"
-  },
-  {
     "title": "Binary Search",
     "description": "Perform binary search on sorted array.",
     "function": "function binarySearch(arr, x) {\n  let l = 0, r = arr.length - 1;\n  while (l <= r) {\n    const m = Math.floor((l + r) / 2);\n    if (arr[m] === x) return m;\n    x < arr[m] ? r = m - 1 : l = m + 1;\n  }\n  return -1;\n}",
