@@ -1,11 +1,5 @@
 [
   {
-    "title": "Date Difference",
-    "description": "Calculate the difference in days between two dates.",
-    "function": "function dateDiff(d1, d2) {\n  const diff = Math.abs(new Date(d2) - new Date(d1));\n  return Math.ceil(diff / (1000 * 60 * 60 * 24));\n}",
-    "test": "console.log(dateDiff('2024-01-01', '2024-01-10')); // Output: 9"
-  },
-  {
     "title": "Number to Words",
     "description": "Convert a number to words (basic).",
     "function": "function numberToWords(n) {\n  const words = ['zero','one','two','three','four','five','six','seven','eight','nine'];\n  return n.toString().split('').map(d => words[+d]).join(' ');\n}",
