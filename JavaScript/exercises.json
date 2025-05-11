@@ -1,11 +1,5 @@
 [
   {
-    "title": "Sum of Digits",
-    "description": "Return the sum of the digits in a number.",
-    "function": "function sumDigits(num) {\n  return num.toString().split('').reduce((acc, d) => acc + parseInt(d), 0);\n}",
-    "test": "console.log(sumDigits(123)); // Output: 6"
-  },
-  {
     "title": "Palindrome Check",
     "description": "Check if a string is a palindrome.",
     "function": "function isPalindrome(str) {\n  const cleaned = str.toLowerCase().replace(/[^a-z0-9]/g, '');\n  return cleaned === cleaned.split('').reverse().join('');\n}",
