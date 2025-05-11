@@ -1,11 +1,5 @@
 [
   {
-    "title": "Get Day of Week",
-    "description": "Return the day of the week from a date string.",
-    "function": "function getDayName(dateStr) {\n  const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];\n  return days[new Date(dateStr).getDay()];\n}",
-    "test": "console.log(getDayName('2025-05-11')); // Output: 'Sunday'"
-  },
-  {
     "title": "Sum of Digits",
     "description": "Calculate the sum of digits of a number.",
     "function": "function sumDigits(num) {\n  return num.toString().split('').reduce((acc, d) => acc + +d, 0);\n}",
