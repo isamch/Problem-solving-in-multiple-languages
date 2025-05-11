@@ -1,11 +1,5 @@
 [
   {
-    "title": "Event System",
-    "description": "Create a simple event emitter.",
-    "function": "class EventEmitter {\n  constructor() { this.events = {}; }\n  on(event, listener) {\n    (this.events[event] ||= []).push(listener);\n  }\n  emit(event, ...args) {\n    (this.events[event] || []).forEach(fn => fn(...args));\n  }\n}",
-    "test": "const ee = new EventEmitter();\nee.on('log', msg => console.log(msg));\nee.emit('log', 'Hello');"
-  },
-  {
     "title": "Template Engine",
     "description": "Render a simple template with placeholders.",
     "function": "function render(template, data) {\n  return template.replace(/{{(\\w+)}}/g, (_, key) => data[key] || '');\n}",
