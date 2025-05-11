@@ -1,11 +1,5 @@
 [
   {
-    "title": "Generate UUID",
-    "description": "Generate a simple UUID.",
-    "function": "function uuid() {\n  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {\n    const r = Math.random() * 16 | 0;\n    const v = c === 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\n}",
-    "test": "console.log(uuid());"
-  },
-  {
     "title": "Parse String",
     "description": "Parse a comma-separated string into an array.",
     "function": "function parseCSV(str) {\n  return str.split(',').map(s => s.trim());\n}",
