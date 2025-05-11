@@ -1,11 +1,5 @@
 [
   {
-    "title": "Count Occurrences",
-    "description": "Count how many times a value appears in an array.",
-    "function": "function countOccurrences(arr, value) {\n  return arr.filter(x => x === value).length;\n}",
-    "test": "console.log(countOccurrences([1, 2, 2, 3, 2], 2)); // Output: 3"
-  },
-  {
     "title": "Remove Falsy Values",
     "description": "Remove falsy values from an array.",
     "function": "function removeFalsy(arr) {\n  return arr.filter(Boolean);\n}",
