@@ -1,11 +1,5 @@
 [
   {
-    "title": "Virtual DOM",
-    "description": "Create a virtual DOM node.",
-    "function": "function createVNode(tag, props, ...children) {\n  return { tag, props, children };\n}",
-    "test": "console.log(createVNode('div', { id: 'app' }, 'Hello'));"
-  },
-  {
     "title": "Event System",
     "description": "Create a simple event emitter.",
     "function": "class EventEmitter {\n  constructor() { this.events = {}; }\n  on(event, listener) {\n    (this.events[event] ||= []).push(listener);\n  }\n  emit(event, ...args) {\n    (this.events[event] || []).forEach(fn => fn(...args));\n  }\n}",
