@@ -1,11 +1,5 @@
 [
   {
-    "title": "Simple Hash",
-    "description": "Generate a simple hash from a string.",
-    "function": "function simpleHash(str) {\n  let hash = 0;\n  for (let i = 0; i < str.length; i++) {\n    hash += str.charCodeAt(i);\n  }\n  return hash;\n}",
-    "test": "console.log(simpleHash('abc')); // Output: 294"
-  },
-  {
     "title": "Roman Numerals",
     "description": "Convert integer to Roman numeral.",
     "function": "function toRoman(num) {\n  const val = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];\n  const sym = ['M','CM','D','CD','C','XC','L','XL','X','IX','V','IV','I'];\n  let res = '';\n  for (let i = 0; i < val.length; i++) {\n    while (num >= val[i]) {\n      num -= val[i];\n      res += sym[i];\n    }\n  }\n  return res;\n}",
