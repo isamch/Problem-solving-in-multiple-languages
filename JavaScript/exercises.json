@@ -1,11 +1,5 @@
 [
   {
-    "title": "Flatten Array",
-    "description": "Flatten a nested array.",
-    "function": "function flatten(arr) {\n  return arr.flat(Infinity);\n}",
-    "test": "console.log(flatten([1, [2, [3, 4]]])); // Output: [1, 2, 3, 4]"
-  },
-  {
     "title": "Palindrome Check",
     "description": "Check if a string is a palindrome.",
     "function": "function isPalindrome(str) {\n  str = str.toLowerCase().replace(/[^a-z0-9]/g, '');\n  return str === str.split('').reverse().join('');\n}",
