@@ -1,11 +1,5 @@
 [
   {
-    "title": "Pig Latin",
-    "description": "Convert a word to Pig Latin.",
-    "function": "function toPigLatin(word) {\n  return word.slice(1) + word[0] + 'ay';\n}",
-    "test": "console.log(toPigLatin('hello')); // Output: 'ellohay'"
-  },
-  {
     "title": "Compound Interest",
     "description": "Calculate compound interest.",
     "function": "function compoundInterest(p, r, t, n) {\n  return p * Math.pow((1 + r/n), n*t);\n}",
