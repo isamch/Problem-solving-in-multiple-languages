@@ -1,11 +1,5 @@
 [
   {
-    "title": "Parse String",
-    "description": "Parse a comma-separated string into an array.",
-    "function": "function parseCSV(str) {\n  return str.split(',').map(s => s.trim());\n}",
-    "test": "console.log(parseCSV('apple, banana, cherry')); // Output: ['apple', 'banana', 'cherry']"
-  },
-  {
     "title": "Simple Hash",
     "description": "Generate a simple hash from a string.",
     "function": "function simpleHash(str) {\n  let hash = 0;\n  for (let i = 0; i < str.length; i++) {\n    hash += str.charCodeAt(i);\n  }\n  return hash;\n}",
