@@ -1,11 +1,5 @@
 [
   {
-    "title": "Jump Game",
-    "description": "Check if you can reach the last index from the first index in the array.",
-    "function": "function canJump(nums) {\n  let max = 0;\n  for (let i = 0; i < nums.length; i++) {\n    if (i > max) return false;\n    max = Math.max(max, i + nums[i]);\n  }\n  return true;\n}",
-    "test": "console.log(canJump([2,3,1,1,4])); // Output: true"
-  },
-  {
     "title": "Math Expression Parser",
     "description": "Evaluate simple math expressions as strings.",
     "function": "function parseExpression(expr) {\n  return Function(`return ${expr}`)();\n}",
