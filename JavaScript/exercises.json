@@ -1,11 +1,5 @@
 [
   {
-    "title": "Array Intersection",
-    "description": "Find the intersection of two arrays.",
-    "function": "function arrayIntersection(a, b) {\n  return a.filter(item => b.includes(item));\n}",
-    "test": "console.log(arrayIntersection([1, 2, 3], [2, 3, 4])); // Output: [2, 3]"
-  },
-  {
     "title": "Deep Clone Object",
     "description": "Deeply clone a JavaScript object.",
     "function": "function deepClone(obj) {\n  return JSON.parse(JSON.stringify(obj));\n}",
