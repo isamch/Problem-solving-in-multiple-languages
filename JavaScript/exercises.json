@@ -1,1 +1,236 @@
-[]
+[
+  {
+    "title": "Capitalize Words",
+    "description": "Capitalize the first letter of each word in a string.",
+    "function": "function capitalizeWords(str) {\n  return str.split(' ').map(w => w[0].toUpperCase() + w.slice(1)).join(' ');\n}",
+    "test": "console.log(capitalizeWords('hello world')); // Output: 'Hello World'"
+  },
+  {
+    "title": "Flatten Array",
+    "description": "Flatten a nested array.",
+    "function": "function flatten(arr) {\n  return arr.flat(Infinity);\n}",
+    "test": "console.log(flatten([1, [2, [3, 4]]])); // Output: [1, 2, 3, 4]"
+  },
+  {
+    "title": "Palindrome Check",
+    "description": "Check if a string is a palindrome.",
+    "function": "function isPalindrome(str) {\n  str = str.toLowerCase().replace(/[^a-z0-9]/g, '');\n  return str === str.split('').reverse().join('');\n}",
+    "test": "console.log(isPalindrome('A man, a plan, a canal: Panama')); // Output: true"
+  },
+  {
+    "title": "Count Vowels",
+    "description": "Count the number of vowels in a string.",
+    "function": "function countVowels(str) {\n  return (str.match(/[aeiou]/gi) || []).length;\n}",
+    "test": "console.log(countVowels('hello')); // Output: 2"
+  },
+  {
+    "title": "Remove Duplicates",
+    "description": "Remove duplicate values from an array.",
+    "function": "function removeDuplicates(arr) {\n  return [...new Set(arr)];\n}",
+    "test": "console.log(removeDuplicates([1, 2, 2, 3])); // Output: [1, 2, 3]"
+  },
+  {
+    "title": "Get Day of Week",
+    "description": "Return the day of the week from a date string.",
+    "function": "function getDayName(dateStr) {\n  const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];\n  return days[new Date(dateStr).getDay()];\n}",
+    "test": "console.log(getDayName('2025-05-11')); // Output: 'Sunday'"
+  },
+  {
+    "title": "Sum of Digits",
+    "description": "Calculate the sum of digits of a number.",
+    "function": "function sumDigits(num) {\n  return num.toString().split('').reduce((acc, d) => acc + +d, 0);\n}",
+    "test": "console.log(sumDigits(1234)); // Output: 10"
+  },
+  {
+    "title": "Check Anagram",
+    "description": "Check if two strings are anagrams.",
+    "function": "function isAnagram(str1, str2) {\n  const format = s => s.toLowerCase().replace(/[^a-z0-9]/g, '').split('').sort().join('');\n  return format(str1) === format(str2);\n}",
+    "test": "console.log(isAnagram('listen', 'silent')); // Output: true"
+  },
+  {
+    "title": "Chunk Array",
+    "description": "Split array into chunks of specified size.",
+    "function": "function chunkArray(arr, size) {\n  let result = [];\n  for (let i = 0; i < arr.length; i += size) {\n    result.push(arr.slice(i, i + size));\n  }\n  return result;\n}",
+    "test": "console.log(chunkArray([1, 2, 3, 4, 5], 2)); // Output: [[1,2],[3,4],[5]]"
+  },
+  {
+    "title": "Reverse String",
+    "description": "Return the reversed version of a given string.",
+    "function": "function reverseString(str) {\n  return str.split('').reverse().join('');\n}",
+    "test": "console.log(reverseString('openai')); // Output: 'ianepo'"
+  },
+  {
+    "title": "Factorial",
+    "description": "Return the factorial of a number.",
+    "function": "function factorial(n) {\n  if (n === 0 || n === 1) return 1;\n  return n * factorial(n - 1);\n}",
+    "test": "console.log(factorial(5)); // Output: 120"
+  },
+  {
+    "title": "Find Max Number",
+    "description": "Return the largest number in an array.",
+    "function": "function findMax(arr) {\n  return Math.max(...arr);\n}",
+    "test": "console.log(findMax([1, 3, 7, 2])); // Output: 7"
+  },
+  {
+    "title": "Fibonacci Sequence",
+    "description": "Return the nth Fibonacci number.",
+    "function": "function fibonacci(n) {\n  if (n <= 1) return n;\n  return fibonacci(n - 1) + fibonacci(n - 2);\n}",
+    "test": "console.log(fibonacci(6)); // Output: 8"
+  },
+  {
+    "title": "Is Even",
+    "description": "Check if a number is even.",
+    "function": "function isEven(n) {\n  return n % 2 === 0;\n}",
+    "test": "console.log(isEven(4)); // Output: true"
+  },
+  {
+    "title": "Repeat String",
+    "description": "Repeat a string a given number of times.",
+    "function": "function repeatString(str, times) {\n  return str.repeat(times);\n}",
+    "test": "console.log(repeatString('abc', 3)); // Output: 'abcabcabc'"
+  },
+  {
+    "title": "Find Intersection",
+    "description": "Find common elements between two arrays.",
+    "function": "function intersection(arr1, arr2) {\n  return arr1.filter(x => arr2.includes(x));\n}",
+    "test": "console.log(intersection([1, 2, 3], [2, 3, 4])); // Output: [2, 3]"
+  },
+  {
+    "title": "Object to Array",
+    "description": "Convert an object into an array of key-value pairs.",
+    "function": "function objectToArray(obj) {\n  return Object.entries(obj);\n}",
+    "test": "console.log(objectToArray({a: 1, b: 2})); // Output: [['a', 1], ['b', 2]]"
+  },
+  {
+    "title": "Count Occurrences",
+    "description": "Count how many times a value appears in an array.",
+    "function": "function countOccurrences(arr, value) {\n  return arr.filter(x => x === value).length;\n}",
+    "test": "console.log(countOccurrences([1, 2, 2, 3, 2], 2)); // Output: 3"
+  },
+  {
+    "title": "Remove Falsy Values",
+    "description": "Remove falsy values from an array.",
+    "function": "function removeFalsy(arr) {\n  return arr.filter(Boolean);\n}",
+    "test": "console.log(removeFalsy([0, 1, false, 2, '', 3])); // Output: [1, 2, 3]"
+  },
+  {
+    "title": "Capitalize First Letter",
+    "description": "Capitalize the first letter of a given string.",
+    "function": "function capitalizeFirst(str) {\n  return str.charAt(0).toUpperCase() + str.slice(1);\n}",
+    "test": "console.log(capitalizeFirst('hello')); // Output: 'Hello'"
+  },
+  {
+    "title": "Sum of Digits",
+    "description": "Return the sum of the digits in a number.",
+    "function": "function sumDigits(num) {\n  return num.toString().split('').reduce((acc, d) => acc + parseInt(d), 0);\n}",
+    "test": "console.log(sumDigits(123)); // Output: 6"
+  },
+  {
+    "title": "Palindrome Check",
+    "description": "Check if a string is a palindrome.",
+    "function": "function isPalindrome(str) {\n  const cleaned = str.toLowerCase().replace(/[^a-z0-9]/g, '');\n  return cleaned === cleaned.split('').reverse().join('');\n}",
+    "test": "console.log(isPalindrome('RaceCar')); // Output: true"
+  },
+  {
+    "title": "Get Unique Values",
+    "description": "Return an array with only the unique values.",
+    "function": "function uniqueValues(arr) {\n  return [...new Set(arr)];\n}",
+    "test": "console.log(uniqueValues([1, 2, 2, 3, 3, 3])); // Output: [1, 2, 3]"
+  },
+  {
+    "title": "Check Prime",
+    "description": "Check if a number is a prime number.",
+    "function": "function isPrime(n) {\n  if (n <= 1) return false;\n  for (let i = 2; i <= Math.sqrt(n); i++) {\n    if (n % i === 0) return false;\n  }\n  return true;\n}",
+    "test": "console.log(isPrime(7)); // Output: true"
+  },
+  {
+    "title": "Flatten Array",
+    "description": "Flatten a nested array one level deep.",
+    "function": "function flatten(arr) {\n  return arr.reduce((flat, next) => flat.concat(next), []);\n}",
+    "test": "console.log(flatten([[1, 2], [3, 4]])); // Output: [1, 2, 3, 4]"
+  },
+  {
+    "title": "Get Last Element",
+    "description": "Return the last element of an array.",
+    "function": "function lastElement(arr) {\n  return arr[arr.length - 1];\n}",
+    "test": "console.log(lastElement([1, 2, 3])); // Output: 3"
+  },
+  {
+    "title": "Sum All Elements",
+    "description": "Return the sum of all elements in an array.",
+    "function": "function sumArray(arr) {\n  return arr.reduce((sum, num) => sum + num, 0);\n}",
+    "test": "console.log(sumArray([1, 2, 3])); // Output: 6"
+  },
+  {
+    "title": "Check Anagram",
+    "description": "Check if two strings are anagrams.",
+    "function": "function isAnagram(a, b) {\n  const normalize = str => str.toLowerCase().replace(/[^a-z0-9]/g, '').split('').sort().join('');\n  return normalize(a) === normalize(b);\n}",
+    "test": "console.log(isAnagram('listen', 'silent')); // Output: true"
+  },
+  {
+    "title": "Count Vowels",
+    "description": "Count the number of vowels in a string.",
+    "function": "function countVowels(str) {\n  return (str.match(/[aeiou]/gi) || []).length;\n}",
+    "test": "console.log(countVowels('hello world')); // Output: 3"
+  },
+  {
+    "title": "Get Current Date",
+    "description": "Return the current date in YYYY-MM-DD format.",
+    "function": "function getCurrentDate() {\n  const d = new Date();\n  return d.toISOString().split('T')[0];\n}",
+    "test": "console.log(getCurrentDate()); // Output: e.g., '2025-05-11'"
+  },
+  {
+    "title": "Access Nested Object",
+    "description": "Safely access a deeply nested object property.",
+    "function": "function getUserCity(user) {\n  return user?.address?.location?.city || 'Unknown';\n}",
+    "test": "console.log(getUserCity({ address: { location: { city: 'Paris' } } })); // Output: 'Paris'"
+  },
+  {
+    "title": "Sort by Age",
+    "description": "Sort an array of objects by the 'age' property ascending.",
+    "function": "function sortByAge(users) {\n  return users.sort((a, b) => a.age - b.age);\n}",
+    "test": "console.log(sortByAge([{ name: 'Ali', age: 30 }, { name: 'Sara', age: 25 }])); // Output: [{name: 'Sara',...}, {name: 'Ali',...}]"
+  },
+  {
+    "title": "Filter Active Users",
+    "description": "Filter out users where 'active' is false.",
+    "function": "function getActiveUsers(users) {\n  return users.filter(user => user.active);\n}",
+    "test": "console.log(getActiveUsers([{ active: true }, { active: false }])); // Output: [{ active: true }]"
+  },
+  {
+    "title": "Fetch JSON Data (Async)",
+    "description": "Fetch data from an API endpoint using async/await.",
+    "function": "async function fetchData(url) {\n  const res = await fetch(url);\n  const data = await res.json();\n  return data;\n}",
+    "test": "fetchData('https://jsonplaceholder.typicode.com/posts/1').then(console.log);"
+  },
+  {
+    "title": "Delay Function",
+    "description": "Wait for a specific time (in ms) before continuing.",
+    "function": "function delay(ms) {\n  return new Promise(resolve => setTimeout(resolve, ms));\n}",
+    "test": "delay(1000).then(() => console.log('Done after 1 second'));"
+  },
+  {
+    "title": "Deep Clone Object",
+    "description": "Clone an object deeply using JSON methods.",
+    "function": "function deepClone(obj) {\n  return JSON.parse(JSON.stringify(obj));\n}",
+    "test": "const original = { a: { b: 1 } };\nconst copy = deepClone(original);\nconsole.log(copy); // Output: { a: { b: 1 } }"
+  },
+  {
+    "title": "Get Days Between Dates",
+    "description": "Calculate number of days between two dates.",
+    "function": "function daysBetween(date1, date2) {\n  const diff = Math.abs(new Date(date1) - new Date(date2));\n  return Math.floor(diff / (1000 * 60 * 60 * 24));\n}",
+    "test": "console.log(daysBetween('2025-01-01', '2025-01-10')); // Output: 9"
+  },
+  {
+    "title": "Format Number to Currency",
+    "description": "Format a number to currency format (e.g., $1,234.56).",
+    "function": "function formatCurrency(num) {\n  return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(num);\n}",
+    "test": "console.log(formatCurrency(1234.56)); // Output: '$1,234.56'"
+  },
+  {
+    "title": "Group by Property",
+    "description": "Group an array of objects by a given property.",
+    "function": "function groupBy(arr, key) {\n  return arr.reduce((acc, obj) => {\n    const group = obj[key];\n    if (!acc[group]) acc[group] = [];\n    acc[group].push(obj);\n    return acc;\n  }, {});\n}",
+    "test": "console.log(groupBy([{ type: 'fruit', name: 'apple' }, { type: 'vegetable', name: 'carrot' }, { type: 'fruit', name: 'banana' }], 'type'));\n// Output: { fruit: [...], vegetable: [...] }"
+  }
+]
