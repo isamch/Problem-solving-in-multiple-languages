@@ -1,11 +1,5 @@
 [
   {
-    "title": "Multiplication Table",
-    "description": "Print multiplication table for a number.",
-    "function": "function multiplicationTable(n) {\n  for (let i = 1; i <= 10; i++) {\n    console.log(`${n} x ${i} = ${n*i}`);\n  }\n}",
-    "test": "multiplicationTable(5);"
-  },
-  {
     "title": "Array Intersection",
     "description": "Find the intersection of two arrays.",
     "function": "function arrayIntersection(a, b) {\n  return a.filter(item => b.includes(item));\n}",
