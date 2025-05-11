@@ -1,11 +1,5 @@
 [
   {
-    "title": "Validation Library",
-    "description": "Validate email format.",
-    "function": "function isValidEmail(email) {\n  return /^[\\w.-]+@[\\w.-]+\\.\\w+$/.test(email);\n}",
-    "test": "console.log(isValidEmail('test@example.com'));"
-  },
-  {
     "title": "Notification System",
     "description": "Show browser notification.",
     "function": "function notify(msg) {\n  if (Notification.permission === 'granted') {\n    new Notification(msg);\n  }\n}",
