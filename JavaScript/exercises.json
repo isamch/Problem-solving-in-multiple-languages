@@ -1,11 +1,5 @@
 [
   {
-    "title": "Is Even",
-    "description": "Check if a number is even.",
-    "function": "function isEven(n) {\n  return n % 2 === 0;\n}",
-    "test": "console.log(isEven(4)); // Output: true"
-  },
-  {
     "title": "Repeat String",
     "description": "Repeat a string a given number of times.",
     "function": "function repeatString(str, times) {\n  return str.repeat(times);\n}",
