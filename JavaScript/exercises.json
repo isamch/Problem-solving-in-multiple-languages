@@ -1,11 +1,5 @@
 [
   {
-    "title": "Capitalize First Letter",
-    "description": "Capitalize the first letter of a given string.",
-    "function": "function capitalizeFirst(str) {\n  return str.charAt(0).toUpperCase() + str.slice(1);\n}",
-    "test": "console.log(capitalizeFirst('hello')); // Output: 'Hello'"
-  },
-  {
     "title": "Sum of Digits",
     "description": "Return the sum of the digits in a number.",
     "function": "function sumDigits(num) {\n  return num.toString().split('').reduce((acc, d) => acc + parseInt(d), 0);\n}",
