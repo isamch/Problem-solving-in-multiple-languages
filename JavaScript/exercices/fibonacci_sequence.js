@@ -1,14 +1,11 @@
 // Exercise: Fibonacci Sequence
 
-// Description: Generate Fibonacci sequence up to n terms.
+// Description: Return the nth Fibonacci number.
 
 function fibonacci(n) {
-  let seq = [0, 1];
-  for (let i = 2; i < n; i++) {
-    seq.push(seq[i - 1] + seq[i - 2]);
-  }
-  return seq.slice(0, n);
+  if (n <= 1) return n;
+  return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
 // Test the function
-console.log(fibonacci(5)); // Output: [0, 1, 1, 2, 3]
+console.log(fibonacci(6)); // Output: 8

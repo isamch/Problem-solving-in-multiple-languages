@@ -1,11 +1,5 @@
 [
   {
-    "title": "Fibonacci Sequence",
-    "description": "Return the nth Fibonacci number.",
-    "function": "function fibonacci(n) {\n  if (n <= 1) return n;\n  return fibonacci(n - 1) + fibonacci(n - 2);\n}",
-    "test": "console.log(fibonacci(6)); // Output: 8"
-  },
-  {
     "title": "Is Even",
     "description": "Check if a number is even.",
     "function": "function isEven(n) {\n  return n % 2 === 0;\n}",
