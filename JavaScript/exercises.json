@@ -1,11 +1,5 @@
 [
   {
-    "title": "Decimal to Binary",
-    "description": "Convert a decimal number to binary.",
-    "function": "function decToBin(n) {\n  return n.toString(2);\n}",
-    "test": "console.log(decToBin(10)); // Output: '1010'"
-  },
-  {
     "title": "Binary to Decimal",
     "description": "Convert a binary string to decimal.",
     "function": "function binToDec(bin) {\n  return parseInt(bin, 2);\n}",
