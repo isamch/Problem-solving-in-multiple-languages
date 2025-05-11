@@ -1,11 +1,5 @@
 [
   {
-    "title": "Temperature Conversion",
-    "description": "Convert Celsius to Fahrenheit.",
-    "function": "function cToF(c) {\n  return (c * 9/5) + 32;\n}",
-    "test": "console.log(cToF(0)); // Output: 32"
-  },
-  {
     "title": "Factorial",
     "description": "Calculate the factorial of a number.",
     "function": "function factorial(n) {\n  if (n === 0) return 1;\n  return n * factorial(n - 1);\n}",
