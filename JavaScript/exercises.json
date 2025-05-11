@@ -1,23 +1,5 @@
 [
   {
-    "title": "Check Palindrome",
-    "description": "Check if a string is a palindrome.",
-    "function": "function isPalindrome(str) {\n  const clean = str.toLowerCase().replace(/[^a-z0-9]/g, '');\n  return clean === clean.split('').reverse().join('');\n}",
-    "test": "console.log(isPalindrome('Racecar')); // Output: true"
-  },
-  {
-    "title": "Sort Numbers",
-    "description": "Sort an array of numbers.",
-    "function": "function sortNumbers(arr) {\n  return arr.sort((a, b) => a - b);\n}",
-    "test": "console.log(sortNumbers([3, 1, 4, 2])); // Output: [1, 2, 3, 4]"
-  },
-  {
-    "title": "Remove Duplicates",
-    "description": "Remove duplicate values from an array.",
-    "function": "function removeDuplicates(arr) {\n  return [...new Set(arr)];\n}",
-    "test": "console.log(removeDuplicates([1, 2, 2, 3, 4, 4])); // Output: [1, 2, 3, 4]"
-  },
-  {
     "title": "Sum Even Numbers",
     "description": "Return the sum of all even numbers in an array.",
     "function": "function sumEven(arr) {\n  return arr.filter(n => n % 2 === 0).reduce((a, b) => a + b, 0);\n}",
