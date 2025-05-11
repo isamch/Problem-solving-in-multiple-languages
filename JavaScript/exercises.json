@@ -1,11 +1,5 @@
 [
   {
-    "title": "State Management",
-    "description": "Simple store to manage state.",
-    "function": "class Store {\n  constructor(state) { this.state = state; }\n  get(key) { return this.state[key]; }\n  set(key, val) { this.state[key] = val; }\n}",
-    "test": "const store = new Store({ count: 0 });\nstore.set('count', 5);\nconsole.log(store.get('count'));"
-  },
-  {
     "title": "Auto Documentation",
     "description": "Generate docs from function comments.",
     "function": "function generateDocs(fn) {\n  return fn.toString().match(/\\/\\*\\*(.*?)\\*\\//s)?.[1].trim();\n}",
