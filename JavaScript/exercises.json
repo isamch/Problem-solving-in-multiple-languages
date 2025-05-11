@@ -1,11 +1,5 @@
 [
   {
-    "title": "Fibonacci Sequence",
-    "description": "Generate Fibonacci sequence up to n terms.",
-    "function": "function fibonacci(n) {\n  let seq = [0, 1];\n  for (let i = 2; i < n; i++) {\n    seq.push(seq[i - 1] + seq[i - 2]);\n  }\n  return seq.slice(0, n);\n}",
-    "test": "console.log(fibonacci(5)); // Output: [0, 1, 1, 2, 3]"
-  },
-  {
     "title": "Pig Latin",
     "description": "Convert a word to Pig Latin.",
     "function": "function toPigLatin(word) {\n  return word.slice(1) + word[0] + 'ay';\n}",
