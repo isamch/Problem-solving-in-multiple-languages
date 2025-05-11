@@ -1,11 +1,5 @@
 [
   {
-    "title": "Roman Numerals",
-    "description": "Convert integer to Roman numeral.",
-    "function": "function toRoman(num) {\n  const val = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];\n  const sym = ['M','CM','D','CD','C','XC','L','XL','X','IX','V','IV','I'];\n  let res = '';\n  for (let i = 0; i < val.length; i++) {\n    while (num >= val[i]) {\n      num -= val[i];\n      res += sym[i];\n    }\n  }\n  return res;\n}",
-    "test": "console.log(toRoman(1994)); // Output: 'MCMXCIV'"
-  },
-  {
     "title": "Compress String",
     "description": "Compress repeated characters (basic).",
     "function": "function compress(str) {\n  return str.replace(/(.)\\1+/g, (m, c) => c + m.length);\n}",
