@@ -1,11 +1,5 @@
 [
   {
-    "title": "Theme System",
-    "description": "Switch between light and dark themes.",
-    "function": "function toggleTheme() {\n  document.body.classList.toggle('dark');\n}",
-    "test": "// toggleTheme();"
-  },
-  {
     "title": "Auth System",
     "description": "Simulate a basic user login check.",
     "function": "function authenticate(user, pass) {\n  return user === 'admin' && pass === '1234';\n}",
