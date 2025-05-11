@@ -1,11 +1,5 @@
 [
   {
-    "title": "Number to Words",
-    "description": "Convert a number to words (basic).",
-    "function": "function numberToWords(n) {\n  const words = ['zero','one','two','three','four','five','six','seven','eight','nine'];\n  return n.toString().split('').map(d => words[+d]).join(' ');\n}",
-    "test": "console.log(numberToWords(123)); // Output: 'one two three'"
-  },
-  {
     "title": "Generate UUID",
     "description": "Generate a simple UUID.",
     "function": "function uuid() {\n  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {\n    const r = Math.random() * 16 | 0;\n    const v = c === 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\n}",
