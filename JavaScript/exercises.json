@@ -1,11 +1,5 @@
 [
   {
-    "title": "AES Encryption",
-    "description": "Encrypt text using AES (with CryptoJS).",
-    "function": "function encrypt(text, key) {\n  return CryptoJS.AES.encrypt(text, key).toString();\n}",
-    "test": "// Requires CryptoJS\n// console.log(encrypt('secret', 'key'));"
-  },
-  {
     "title": "Caesar Cipher",
     "description": "Encrypt a string using Caesar cipher.",
     "function": "function caesarCipher(str, shift) {\n  return str.replace(/[a-z]/gi, c =>\n    String.fromCharCode((c.toLowerCase().charCodeAt(0) - 97 + shift) % 26 + 97));\n}",
