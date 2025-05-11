@@ -1,11 +1,5 @@
 [
   {
-    "title": "Calculate Area",
-    "description": "Calculate area of a rectangle.",
-    "function": "function area(w, h) {\n  return w * h;\n}",
-    "test": "console.log(area(5, 3)); // Output: 15"
-  },
-  {
     "title": "Generate Password",
     "description": "Generate a random password of given length.",
     "function": "function generatePassword(len) {\n  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';\n  let pwd = '';\n  for (let i = 0; i < len; i++) {\n    pwd += chars.charAt(Math.floor(Math.random() * chars.length));\n  }\n  return pwd;\n}",
