@@ -1,11 +1,5 @@
 [
   {
-    "title": "Binary Search",
-    "description": "Perform binary search on sorted array.",
-    "function": "function binarySearch(arr, x) {\n  let l = 0, r = arr.length - 1;\n  while (l <= r) {\n    const m = Math.floor((l + r) / 2);\n    if (arr[m] === x) return m;\n    x < arr[m] ? r = m - 1 : l = m + 1;\n  }\n  return -1;\n}",
-    "test": "console.log(binarySearch([1,2,3,4,5], 3));"
-  },
-  {
     "title": "Theme System",
     "description": "Switch between light and dark themes.",
     "function": "function toggleTheme() {\n  document.body.classList.toggle('dark');\n}",
