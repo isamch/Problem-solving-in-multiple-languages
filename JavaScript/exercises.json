@@ -1,8 +1,1 @@
-[
-  {
-    "title": "Unit Testing System",
-    "description": "Simple assertion-based testing.",
-    "function": "function test(name, fn) {\n  try { fn(); console.log(name + ' passed'); }\n  catch (e) { console.error(name + ' failed', e); }\n}",
-    "test": "test('Addition', () => { if (1 + 1 !== 2) throw 'Fail'; });"
-  }
-]
+[]
