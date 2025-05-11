@@ -1,11 +1,5 @@
 [
   {
-    "title": "Find Intersection",
-    "description": "Find common elements between two arrays.",
-    "function": "function intersection(arr1, arr2) {\n  return arr1.filter(x => arr2.includes(x));\n}",
-    "test": "console.log(intersection([1, 2, 3], [2, 3, 4])); // Output: [2, 3]"
-  },
-  {
     "title": "Object to Array",
     "description": "Convert an object into an array of key-value pairs.",
     "function": "function objectToArray(obj) {\n  return Object.entries(obj);\n}",
