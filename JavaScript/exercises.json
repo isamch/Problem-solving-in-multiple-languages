@@ -1,11 +1,5 @@
 [
   {
-    "title": "PDF Generator",
-    "description": "Generate a PDF file (with jsPDF).",
-    "function": "function generatePDF(text) {\n  const doc = new jsPDF();\n  doc.text(text, 10, 10);\n  doc.save('file.pdf');\n}",
-    "test": "// generatePDF('Hello World');"
-  },
-  {
     "title": "Routing System",
     "description": "Create a simple SPA router.",
     "function": "function router(path) {\n  const routes = { '/': 'Home', '/about': 'About' };\n  return routes[path] || '404';\n}",
