@@ -1,11 +1,5 @@
 [
   {
-    "title": "Remove Falsy Values",
-    "description": "Remove falsy values from an array.",
-    "function": "function removeFalsy(arr) {\n  return arr.filter(Boolean);\n}",
-    "test": "console.log(removeFalsy([0, 1, false, 2, '', 3])); // Output: [1, 2, 3]"
-  },
-  {
     "title": "Capitalize First Letter",
     "description": "Capitalize the first letter of a given string.",
     "function": "function capitalizeFirst(str) {\n  return str.charAt(0).toUpperCase() + str.slice(1);\n}",
