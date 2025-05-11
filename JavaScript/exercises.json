@@ -1,11 +1,5 @@
 [
   {
-    "title": "Factorial",
-    "description": "Calculate the factorial of a number.",
-    "function": "function factorial(n) {\n  if (n === 0) return 1;\n  return n * factorial(n - 1);\n}",
-    "test": "console.log(factorial(5)); // Output: 120"
-  },
-  {
     "title": "Check Prime",
     "description": "Check if a number is prime.",
     "function": "function isPrime(n) {\n  if (n < 2) return false;\n  for (let i = 2; i <= Math.sqrt(n); i++) {\n    if (n % i === 0) return false;\n  }\n  return true;\n}",
