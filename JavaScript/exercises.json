@@ -1,11 +1,5 @@
 [
   {
-    "title": "Reverse String",
-    "description": "Reverse a given string.",
-    "function": "function reverseString(str) {\n  return str.split('').reverse().join('');\n}",
-    "test": "console.log(reverseString('hello')); // Output: 'olleh'"
-  },
-  {
     "title": "Check Palindrome",
     "description": "Check if a string is a palindrome.",
     "function": "function isPalindrome(str) {\n  const clean = str.toLowerCase().replace(/[^a-z0-9]/g, '');\n  return clean === clean.split('').reverse().join('');\n}",
