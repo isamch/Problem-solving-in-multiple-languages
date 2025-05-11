@@ -1,11 +1,5 @@
 [
   {
-    "title": "Caching System",
-    "description": "Create a simple in-memory cache.",
-    "function": "class Cache {\n  constructor() { this.store = {}; }\n  set(key, val) { this.store[key] = val; }\n  get(key) { return this.store[key]; }\n}",
-    "test": "const c = new Cache();\nc.set('x', 5);\nconsole.log(c.get('x'));"
-  },
-  {
     "title": "Quick Sort",
     "description": "Sort an array using quicksort.",
     "function": "function quickSort(arr) {\n  if (arr.length <= 1) return arr;\n  const pivot = arr[0];\n  const left = arr.slice(1).filter(x => x < pivot);\n  const right = arr.slice(1).filter(x => x >= pivot);\n  return [...quickSort(left), pivot, ...quickSort(right)];\n}",
