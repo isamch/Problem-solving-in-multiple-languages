@@ -1,11 +1,5 @@
 [
   {
-    "title": "Binary to Decimal",
-    "description": "Convert a binary string to decimal.",
-    "function": "function binToDec(bin) {\n  return parseInt(bin, 2);\n}",
-    "test": "console.log(binToDec('1010')); // Output: 10"
-  },
-  {
     "title": "Fibonacci Sequence",
     "description": "Generate Fibonacci sequence up to n terms.",
     "function": "function fibonacci(n) {\n  let seq = [0, 1];\n  for (let i = 2; i < n; i++) {\n    seq.push(seq[i - 1] + seq[i - 2]);\n  }\n  return seq.slice(0, n);\n}",
