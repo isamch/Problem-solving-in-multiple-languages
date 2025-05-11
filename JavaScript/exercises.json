@@ -1,11 +1,5 @@
 [
   {
-    "title": "QR Code Generator",
-    "description": "Generate QR code using an external library.",
-    "function": "function generateQR(text) {\n  // Use qrcode library\n  QRCode.toCanvas(document.getElementById('canvas'), text);\n}",
-    "test": "// generateQR('https://example.com');"
-  },
-  {
     "title": "Caching System",
     "description": "Create a simple in-memory cache.",
     "function": "class Cache {\n  constructor() { this.store = {}; }\n  set(key, val) { this.store[key] = val; }\n  get(key) { return this.store[key]; }\n}",
