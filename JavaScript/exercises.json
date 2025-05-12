@@ -1,11 +1,5 @@
 [
   {
-    "title": "Get Unique Values",
-    "description": "Return an array with only the unique values.",
-    "function": "function uniqueValues(arr) {\n  return [...new Set(arr)];\n}",
-    "test": "console.log(uniqueValues([1, 2, 2, 3, 3, 3])); // Output: [1, 2, 3]"
-  },
-  {
     "title": "Check Prime",
     "description": "Check if a number is a prime number.",
     "function": "function isPrime(n) {\n  if (n <= 1) return false;\n  for (let i = 2; i <= Math.sqrt(n); i++) {\n    if (n % i === 0) return false;\n  }\n  return true;\n}",
