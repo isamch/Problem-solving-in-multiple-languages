@@ -2,9 +2,9 @@
 
 // Description: Check if two strings are anagrams.
 
-function isAnagram(str1, str2) {
-  const format = s => s.toLowerCase().replace(/[^a-z0-9]/g, '').split('').sort().join('');
-  return format(str1) === format(str2);
+function isAnagram(a, b) {
+  const normalize = str => str.toLowerCase().replace(/[^a-z0-9]/g, '').split('').sort().join('');
+  return normalize(a) === normalize(b);
 }
 
 // Test the function

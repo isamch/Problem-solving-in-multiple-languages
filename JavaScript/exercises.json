@@ -1,11 +1,5 @@
 [
   {
-    "title": "Check Anagram",
-    "description": "Check if two strings are anagrams.",
-    "function": "function isAnagram(a, b) {\n  const normalize = str => str.toLowerCase().replace(/[^a-z0-9]/g, '').split('').sort().join('');\n  return normalize(a) === normalize(b);\n}",
-    "test": "console.log(isAnagram('listen', 'silent')); // Output: true"
-  },
-  {
     "title": "Count Vowels",
     "description": "Count the number of vowels in a string.",
     "function": "function countVowels(str) {\n  return (str.match(/[aeiou]/gi) || []).length;\n}",
