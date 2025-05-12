@@ -1,11 +1,5 @@
 [
   {
-    "title": "Sort by Age",
-    "description": "Sort an array of objects by the 'age' property ascending.",
-    "function": "function sortByAge(users) {\n  return users.sort((a, b) => a.age - b.age);\n}",
-    "test": "console.log(sortByAge([{ name: 'Ali', age: 30 }, { name: 'Sara', age: 25 }])); // Output: [{name: 'Sara',...}, {name: 'Ali',...}]"
-  },
-  {
     "title": "Filter Active Users",
     "description": "Filter out users where 'active' is false.",
     "function": "function getActiveUsers(users) {\n  return users.filter(user => user.active);\n}",
