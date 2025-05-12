@@ -1,6 +1,6 @@
 // Exercise: Check Prime
 
-// Description: Check if a number is a prime.
+// Description: Check if a number is a prime number.
 
 function isPrime(n) {
   if (n <= 1) return false;
