@@ -1,11 +1,5 @@
 [
   {
-    "title": "Get Current Date",
-    "description": "Return the current date in YYYY-MM-DD format.",
-    "function": "function getCurrentDate() {\n  const d = new Date();\n  return d.toISOString().split('T')[0];\n}",
-    "test": "console.log(getCurrentDate()); // Output: e.g., '2025-05-11'"
-  },
-  {
     "title": "Access Nested Object",
     "description": "Safely access a deeply nested object property.",
     "function": "function getUserCity(user) {\n  return user?.address?.location?.city || 'Unknown';\n}",
