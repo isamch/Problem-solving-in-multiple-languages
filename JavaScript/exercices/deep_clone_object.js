@@ -1,10 +1,12 @@
 // Exercise: Deep Clone Object
 
-// Description: Deeply clone a JavaScript object.
+// Description: Clone an object deeply using JSON methods.
 
 function deepClone(obj) {
   return JSON.parse(JSON.stringify(obj));
 }
 
 // Test the function
-console.log(deepClone({ a: 1, b: { c: 2 } }));
+const original = { a: { b: 1 } };
+const copy = deepClone(original);
+console.log(copy); // Output: { a: { b: 1 } }
