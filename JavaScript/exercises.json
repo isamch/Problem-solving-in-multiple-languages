@@ -1,11 +1,5 @@
 [
   {
-    "title": "Fetch JSON Data (Async)",
-    "description": "Fetch data from an API endpoint using async/await.",
-    "function": "async function fetchData(url) {\n  const res = await fetch(url);\n  const data = await res.json();\n  return data;\n}",
-    "test": "fetchData('https://jsonplaceholder.typicode.com/posts/1').then(console.log);"
-  },
-  {
     "title": "Delay Function",
     "description": "Wait for a specific time (in ms) before continuing.",
     "function": "function delay(ms) {\n  return new Promise(resolve => setTimeout(resolve, ms));\n}",
