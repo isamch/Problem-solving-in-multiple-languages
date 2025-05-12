@@ -1,8 +1,1 @@
-[
-  {
-    "title": "Group by Property",
-    "description": "Group an array of objects by a given property.",
-    "function": "function groupBy(arr, key) {\n  return arr.reduce((acc, obj) => {\n    const group = obj[key];\n    if (!acc[group]) acc[group] = [];\n    acc[group].push(obj);\n    return acc;\n  }, {});\n}",
-    "test": "console.log(groupBy([{ type: 'fruit', name: 'apple' }, { type: 'vegetable', name: 'carrot' }, { type: 'fruit', name: 'banana' }], 'type'));\n// Output: { fruit: [...], vegetable: [...] }"
-  }
-]
+[]
