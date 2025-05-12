@@ -1,11 +1,5 @@
 [
   {
-    "title": "Format Number to Currency",
-    "description": "Format a number to currency format (e.g., $1,234.56).",
-    "function": "function formatCurrency(num) {\n  return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(num);\n}",
-    "test": "console.log(formatCurrency(1234.56)); // Output: '$1,234.56'"
-  },
-  {
     "title": "Group by Property",
     "description": "Group an array of objects by a given property.",
     "function": "function groupBy(arr, key) {\n  return arr.reduce((acc, obj) => {\n    const group = obj[key];\n    if (!acc[group]) acc[group] = [];\n    acc[group].push(obj);\n    return acc;\n  }, {});\n}",
