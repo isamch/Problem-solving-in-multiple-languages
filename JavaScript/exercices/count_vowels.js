@@ -7,4 +7,4 @@ function countVowels(str) {
 }
 
 // Test the function
-console.log(countVowels('hello')); // Output: 2
+console.log(countVowels('hello world')); // Output: 3

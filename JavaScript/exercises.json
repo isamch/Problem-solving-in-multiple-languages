@@ -1,11 +1,5 @@
 [
   {
-    "title": "Count Vowels",
-    "description": "Count the number of vowels in a string.",
-    "function": "function countVowels(str) {\n  return (str.match(/[aeiou]/gi) || []).length;\n}",
-    "test": "console.log(countVowels('hello world')); // Output: 3"
-  },
-  {
     "title": "Get Current Date",
     "description": "Return the current date in YYYY-MM-DD format.",
     "function": "function getCurrentDate() {\n  const d = new Date();\n  return d.toISOString().split('T')[0];\n}",
