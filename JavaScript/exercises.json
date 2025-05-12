@@ -1,11 +1,5 @@
 [
   {
-    "title": "Access Nested Object",
-    "description": "Safely access a deeply nested object property.",
-    "function": "function getUserCity(user) {\n  return user?.address?.location?.city || 'Unknown';\n}",
-    "test": "console.log(getUserCity({ address: { location: { city: 'Paris' } } })); // Output: 'Paris'"
-  },
-  {
     "title": "Sort by Age",
     "description": "Sort an array of objects by the 'age' property ascending.",
     "function": "function sortByAge(users) {\n  return users.sort((a, b) => a.age - b.age);\n}",
