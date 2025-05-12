@@ -1,11 +1,5 @@
 [
   {
-    "title": "Get Last Element",
-    "description": "Return the last element of an array.",
-    "function": "function lastElement(arr) {\n  return arr[arr.length - 1];\n}",
-    "test": "console.log(lastElement([1, 2, 3])); // Output: 3"
-  },
-  {
     "title": "Sum All Elements",
     "description": "Return the sum of all elements in an array.",
     "function": "function sumArray(arr) {\n  return arr.reduce((sum, num) => sum + num, 0);\n}",
