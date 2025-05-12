@@ -1,11 +1,5 @@
 [
   {
-    "title": "Get Days Between Dates",
-    "description": "Calculate number of days between two dates.",
-    "function": "function daysBetween(date1, date2) {\n  const diff = Math.abs(new Date(date1) - new Date(date2));\n  return Math.floor(diff / (1000 * 60 * 60 * 24));\n}",
-    "test": "console.log(daysBetween('2025-01-01', '2025-01-10')); // Output: 9"
-  },
-  {
     "title": "Format Number to Currency",
     "description": "Format a number to currency format (e.g., $1,234.56).",
     "function": "function formatCurrency(num) {\n  return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(num);\n}",
