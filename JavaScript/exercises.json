@@ -1,11 +1,5 @@
 [
   {
-    "title": "Delay Function",
-    "description": "Wait for a specific time (in ms) before continuing.",
-    "function": "function delay(ms) {\n  return new Promise(resolve => setTimeout(resolve, ms));\n}",
-    "test": "delay(1000).then(() => console.log('Done after 1 second'));"
-  },
-  {
     "title": "Deep Clone Object",
     "description": "Clone an object deeply using JSON methods.",
     "function": "function deepClone(obj) {\n  return JSON.parse(JSON.stringify(obj));\n}",
