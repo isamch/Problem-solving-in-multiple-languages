@@ -1,11 +1,5 @@
 [
   {
-    "title": "Palindrome Check",
-    "description": "Check if a string is a palindrome.",
-    "function": "function isPalindrome(str) {\n  const cleaned = str.toLowerCase().replace(/[^a-z0-9]/g, '');\n  return cleaned === cleaned.split('').reverse().join('');\n}",
-    "test": "console.log(isPalindrome('RaceCar')); // Output: true"
-  },
-  {
     "title": "Get Unique Values",
     "description": "Return an array with only the unique values.",
     "function": "function uniqueValues(arr) {\n  return [...new Set(arr)];\n}",
