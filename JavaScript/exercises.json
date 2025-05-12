@@ -1,11 +1,5 @@
 [
   {
-    "title": "Filter Active Users",
-    "description": "Filter out users where 'active' is false.",
-    "function": "function getActiveUsers(users) {\n  return users.filter(user => user.active);\n}",
-    "test": "console.log(getActiveUsers([{ active: true }, { active: false }])); // Output: [{ active: true }]"
-  },
-  {
     "title": "Fetch JSON Data (Async)",
     "description": "Fetch data from an API endpoint using async/await.",
     "function": "async function fetchData(url) {\n  const res = await fetch(url);\n  const data = await res.json();\n  return data;\n}",
