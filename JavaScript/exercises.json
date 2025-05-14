@@ -1,11 +1,5 @@
 [
   {
-    "title": "Apply Function with Arguments",
-    "description": "Use `apply` to call a function with an array of arguments.",
-    "function": "function sum(a, b, c) {\n  return a + b + c;\n}",
-    "test": "console.log(sum.apply(null, [1, 2, 3])); // Output: 6"
-  },
-  {
     "title": "Remove Duplicates from Array",
     "description": "Return a new array without duplicates.",
     "function": "function removeDuplicates(arr) {\n  return [...new Set(arr)];\n}",
