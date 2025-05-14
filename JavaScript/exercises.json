@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "title": "Class: Rectangle Area",
+    "description": "Create a class `Rectangle` with method `getArea()`.",
+    "function": "class Rectangle {\n  constructor(width, height) {\n    this.width = width;\n    this.height = height;\n  }\n  getArea() {\n    return this.width * this.height;\n  }\n}",
+    "test": "const r = new Rectangle(4, 5);\nconsole.log(r.getArea()); // Output: 20"
+  },
+  {
+    "title": "Bind Context",
+    "description": "Bind a function to a custom object.",
+    "function": "function greet() {\n  return `Hello, ${this.name}`;\n}",
+    "test": "const person = { name: 'Ali' };\nconst boundGreet = greet.bind(person);\nconsole.log(boundGreet()); // Output: 'Hello, Ali'"
+  },
+  {
+    "title": "Capitalize First Letters",
+    "description": "Capitalize the first letter of each word in a sentence.",
+    "function": "function capitalize(sentence) {\n  return sentence\n    .split(' ')\n    .map(word => word.charAt(0).toUpperCase() + word.slice(1))\n    .join(' ');\n}",
+    "test": "console.log(capitalize('hello world')); // Output: 'Hello World'"
+  },
+  {
+    "title": "Flatten Array",
+    "description": "Flatten a nested array like [1, [2, [3]]] → [1, 2, 3]",
+    "function": "function flatten(arr) {\n  return arr.flat(Infinity);\n}",
+    "test": "console.log(flatten([1, [2, [3]]])); // Output: [1, 2, 3]"
+  },
+  {
+    "title": "DOM: Change Title",
+    "description": "Change the content of an element with id 'title' to 'Welcome'.",
+    "function": "function changeTitle() {\n  document.getElementById('title').textContent = 'Welcome';\n}",
+    "test": "// HTML: <h1 id='title'></h1>\n// JS: changeTitle();"
+  },
+  {
+    "title": "Count Word Frequency",
+    "description": "Return word frequencies in a sentence.",
+    "function": "function wordCount(text) {\n  return text.split(' ').reduce((acc, word) => {\n    acc[word] = (acc[word] || 0) + 1;\n    return acc;\n  }, {});\n}",
+    "test": "console.log(wordCount('hi hi hello')); // Output: { hi: 2, hello: 1 }"
+  },
+  {
+    "title": "Class Inheritance",
+    "description": "Create a class Dog that extends Animal and adds bark().",
+    "function": "class Animal {\n  constructor(name) {\n    this.name = name;\n  }\n}\nclass Dog extends Animal {\n  bark() {\n    return `${this.name} says woof!`;\n  }\n}",
+    "test": "const d = new Dog('Rex');\nconsole.log(d.bark()); // Output: 'Rex says woof!'"
+  },
+  {
+    "title": "Apply Function with Arguments",
+    "description": "Use `apply` to call a function with an array of arguments.",
+    "function": "function sum(a, b, c) {\n  return a + b + c;\n}",
+    "test": "console.log(sum.apply(null, [1, 2, 3])); // Output: 6"
+  },
+  {
+    "title": "Remove Duplicates from Array",
+    "description": "Return a new array without duplicates.",
+    "function": "function removeDuplicates(arr) {\n  return [...new Set(arr)];\n}",
+    "test": "console.log(removeDuplicates([1, 2, 2, 3])); // Output: [1, 2, 3]"
+  }
+]
