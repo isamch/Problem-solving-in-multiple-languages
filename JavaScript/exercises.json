@@ -1,11 +1,5 @@
 [
   {
-    "title": "Class Inheritance",
-    "description": "Create a class Dog that extends Animal and adds bark().",
-    "function": "class Animal {\n  constructor(name) {\n    this.name = name;\n  }\n}\nclass Dog extends Animal {\n  bark() {\n    return `${this.name} says woof!`;\n  }\n}",
-    "test": "const d = new Dog('Rex');\nconsole.log(d.bark()); // Output: 'Rex says woof!'"
-  },
-  {
     "title": "Apply Function with Arguments",
     "description": "Use `apply` to call a function with an array of arguments.",
     "function": "function sum(a, b, c) {\n  return a + b + c;\n}",
