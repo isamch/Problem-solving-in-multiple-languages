@@ -1,11 +1,5 @@
 [
   {
-    "title": "DOM: Change Title",
-    "description": "Change the content of an element with id 'title' to 'Welcome'.",
-    "function": "function changeTitle() {\n  document.getElementById('title').textContent = 'Welcome';\n}",
-    "test": "// HTML: <h1 id='title'></h1>\n// JS: changeTitle();"
-  },
-  {
     "title": "Count Word Frequency",
     "description": "Return word frequencies in a sentence.",
     "function": "function wordCount(text) {\n  return text.split(' ').reduce((acc, word) => {\n    acc[word] = (acc[word] || 0) + 1;\n    return acc;\n  }, {});\n}",
