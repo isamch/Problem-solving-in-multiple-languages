@@ -1,11 +1,5 @@
 [
   {
-    "title": "Bind Context",
-    "description": "Bind a function to a custom object.",
-    "function": "function greet() {\n  return `Hello, ${this.name}`;\n}",
-    "test": "const person = { name: 'Ali' };\nconst boundGreet = greet.bind(person);\nconsole.log(boundGreet()); // Output: 'Hello, Ali'"
-  },
-  {
     "title": "Capitalize First Letters",
     "description": "Capitalize the first letter of each word in a sentence.",
     "function": "function capitalize(sentence) {\n  return sentence\n    .split(' ')\n    .map(word => word.charAt(0).toUpperCase() + word.slice(1))\n    .join(' ');\n}",
