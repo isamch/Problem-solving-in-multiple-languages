@@ -1,11 +1,5 @@
 [
   {
-    "title": "Class: Rectangle Area",
-    "description": "Create a class `Rectangle` with method `getArea()`.",
-    "function": "class Rectangle {\n  constructor(width, height) {\n    this.width = width;\n    this.height = height;\n  }\n  getArea() {\n    return this.width * this.height;\n  }\n}",
-    "test": "const r = new Rectangle(4, 5);\nconsole.log(r.getArea()); // Output: 20"
-  },
-  {
     "title": "Bind Context",
     "description": "Bind a function to a custom object.",
     "function": "function greet() {\n  return `Hello, ${this.name}`;\n}",
