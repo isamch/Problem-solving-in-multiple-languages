@@ -1,11 +1,5 @@
 [
   {
-    "title": "Count Word Frequency",
-    "description": "Return word frequencies in a sentence.",
-    "function": "function wordCount(text) {\n  return text.split(' ').reduce((acc, word) => {\n    acc[word] = (acc[word] || 0) + 1;\n    return acc;\n  }, {});\n}",
-    "test": "console.log(wordCount('hi hi hello')); // Output: { hi: 2, hello: 1 }"
-  },
-  {
     "title": "Class Inheritance",
     "description": "Create a class Dog that extends Animal and adds bark().",
     "function": "class Animal {\n  constructor(name) {\n    this.name = name;\n  }\n}\nclass Dog extends Animal {\n  bark() {\n    return `${this.name} says woof!`;\n  }\n}",
