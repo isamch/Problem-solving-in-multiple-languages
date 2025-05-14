@@ -1,11 +1,5 @@
 [
   {
-    "title": "Flatten Array",
-    "description": "Flatten a nested array like [1, [2, [3]]] → [1, 2, 3]",
-    "function": "function flatten(arr) {\n  return arr.flat(Infinity);\n}",
-    "test": "console.log(flatten([1, [2, [3]]])); // Output: [1, 2, 3]"
-  },
-  {
     "title": "DOM: Change Title",
     "description": "Change the content of an element with id 'title' to 'Welcome'.",
     "function": "function changeTitle() {\n  document.getElementById('title').textContent = 'Welcome';\n}",

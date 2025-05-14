@@ -1,10 +1,10 @@
 // Exercise: Flatten Array
 
-// Description: Flatten a nested array one level deep.
+// Description: Flatten a nested array like [1, [2, [3]]] → [1, 2, 3]
 
 function flatten(arr) {
-  return arr.reduce((flat, next) => flat.concat(next), []);
+  return arr.flat(Infinity);
 }
 
 // Test the function
-console.log(flatten([[1, 2], [3, 4]])); // Output: [1, 2, 3, 4]
+console.log(flatten([1, [2, [3]]])); // Output: [1, 2, 3]
