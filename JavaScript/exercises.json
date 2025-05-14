@@ -1,11 +1,5 @@
 [
   {
-    "title": "Capitalize First Letters",
-    "description": "Capitalize the first letter of each word in a sentence.",
-    "function": "function capitalize(sentence) {\n  return sentence\n    .split(' ')\n    .map(word => word.charAt(0).toUpperCase() + word.slice(1))\n    .join(' ');\n}",
-    "test": "console.log(capitalize('hello world')); // Output: 'Hello World'"
-  },
-  {
     "title": "Flatten Array",
     "description": "Flatten a nested array like [1, [2, [3]]] → [1, 2, 3]",
     "function": "function flatten(arr) {\n  return arr.flat(Infinity);\n}",
